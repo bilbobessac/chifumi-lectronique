@@ -1,5 +1,6 @@
 let chifumi = 0
 input.onGesture(Gesture.Shake, function () {
+    basic.showNumber(0)
     radio.sendNumber(2)
     chifumi = randint(0, 2)
     if (chifumi == 0) {
